@@ -1,13 +1,20 @@
 # Homebrew tap for Panoptes
 
-This is a homebrew tap for Panoptes.
+TODO: Not yet ready, must get Panoptes signed.
+
+This is a homebrew tap for [Panoptes](https://github.com/jamesdobson/panoptes).
 
 It also serves as an example that you can use to pre-configure Panoptes with
-specific dashboard URLs.
+specific dashboard URLs when it is installed.
 
 ## Installation
 
-TODO: Installation instructions here.
+To install, first add the tap and then install the cask:
+
+```console
+~ % brew tap jamesdobson/panoptes
+~ % brew cask install panoptes
+```
 
 ## Customization
 

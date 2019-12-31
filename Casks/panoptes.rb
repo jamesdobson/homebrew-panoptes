@@ -7,5 +7,18 @@ cask 'panoptes' do
     name 'Panoptes Screensaver'
     homepage 'https://github.com/jamesdobson/panoptes'
 
+    installer script: {
+        executable: "/usr/bin/defaults",
+        args: [
+            "write",
+            "#{File.expand_path('~/Library/Containers/com.apple.ScreenSaver.Engine.legacyScreenSaver/Data/Library/Preferences/ByHost/com.softwarepunk.Panoptes')}",
+            "urls",
+            "-array",
+            "https://weather.gc.ca/city/pages/on-143_metric_e.html",
+            "https://www.apple.com",
+
+        ],
+    }
+
     screen_saver 'Panoptes.saver'
 end
