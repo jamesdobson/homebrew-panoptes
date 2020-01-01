@@ -1,6 +1,6 @@
 cask 'panoptes' do
-    version '1.1.0'
-    sha256 '92e7c723d80b4542bde3b224105f8ed570ba97f3cd5bf6e6df93c7619f87b039'
+    version '1.2.0'
+    sha256 '08448478281ef901cae09ece3f5bb4434f86e234c3457a4912656fb519beace3'
 
     url "https://github.com/jamesdobson/panoptes/releases/download/v#{version}/Panoptes.saver.zip"
     appcast 'https://github.com/jamesdobson/panoptes/releases.atom'
@@ -16,7 +16,6 @@ cask 'panoptes' do
             "-array",
             "https://weather.gc.ca/city/pages/on-143_metric_e.html",
             "https://www.apple.com",
-
         ],
     }
 
