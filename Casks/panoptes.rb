@@ -1,8 +1,8 @@
 cask 'panoptes' do
-    version '1.0.0'
-    sha256 'bf8506e10a35ccca828297c31943ca62829468afd98776ed9153083c3d2e1e84'
+    version '1.1.0'
+    sha256 '92e7c723d80b4542bde3b224105f8ed570ba97f3cd5bf6e6df93c7619f87b039'
 
-    url "https://github.com/jamesdobson/panoptes/releases/download/v#{version}/Panoptes.zip"
+    url "https://github.com/jamesdobson/panoptes/releases/download/v#{version}/Panoptes.saver.zip"
     appcast 'https://github.com/jamesdobson/panoptes/releases.atom'
     name 'Panoptes Screensaver'
     homepage 'https://github.com/jamesdobson/panoptes'
