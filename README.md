@@ -1,4 +1,6 @@
 # Homebrew tap for Panoptes
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjamesdobson%2Fhomebrew-panoptes.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjamesdobson%2Fhomebrew-panoptes?ref=badge_shield)
+
 
 This is a homebrew tap for [Panoptes](https://github.com/jamesdobson/panoptes).
 
@@ -62,3 +64,7 @@ homebrew-panoptes # git push --set-upstream origin master
 homebrew-panoptes # brew tap custom/panoptes <your git repository>
 homebrew-panoptes # brew cask install panoptes
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjamesdobson%2Fhomebrew-panoptes.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjamesdobson%2Fhomebrew-panoptes?ref=badge_large)
